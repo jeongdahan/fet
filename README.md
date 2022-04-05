@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 프로젝트 제목
 
-## Getting Started
+Fet: Front-end talk
 
-First, run the development server:
+# 프로젝트 내용
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Fet은 프론트 개발자들을 위한 채팅 플랫폼입니다.
+- 빠르게 변화하는 기술 속에서 좀 더 즉각적인 조언을 얻고자 만든 서비스입니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+현재 완성된 서비스가 아닌 개발 및 수정 작업 중에 있습니다.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+# 프로그램 주요 스택
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 클라이언트
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- React
+- Next
+- Typescript
+- Styled-components
+- Firebase
 
-## Learn More
+## 서버 및 데이터베이스
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Firebase: Authentication, Realtime Database, Storage
